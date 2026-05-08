@@ -16,8 +16,8 @@ bun add @manicjs/tailwind
 ## Usage
 
 ```ts
-import { defineConfig } from 'manicjs/config';
-import { tailwind } from '@manicjs/tailwind';
+import { defineConfig } from "manicjs/config";
+import { tailwind } from "@manicjs/tailwind";
 
 export default defineConfig({
   plugins: [tailwind()],
