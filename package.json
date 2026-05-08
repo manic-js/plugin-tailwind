@@ -15,5 +15,13 @@
     "@shikijs/transformers": "^4.0.2",
     "@types/mdx": "^2.0.13",
     "fumadocs-docgen": "^3.0.10"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/manic-js/plugin-tailwind"
+  },
+  "homepage": "https://github.com/manic-js/plugin-tailwind#readme",
+  "bugs": {
+    "url": "https://github.com/manic-js/plugin-tailwind/issues"
   }
 }
