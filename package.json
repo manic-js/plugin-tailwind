@@ -22,6 +22,13 @@
   "devDependencies": {
     "@shikijs/transformers": "^4.0.2",
     "@types/mdx": "^2.0.13",
-    "fumadocs-docgen": "^3.0.10"
+    "fumadocs-docgen": "^3.0.10",
+    "simple-git-hooks": "^2.13.1"
+  },
+  "scripts": {
+    "prepare": "simple-git-hooks"
+  },
+  "simple-git-hooks": {
+    "pre-commit": "bunx --bun oxlint . && bunx --bun oxfmt --check --config .oxfmt.json ."
   }
 }
