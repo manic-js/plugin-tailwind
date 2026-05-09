@@ -1,6 +1,6 @@
 {
   "name": "@manicjs/tailwind",
-  "version": "1.0.1",
+  "version": "1.0.5",
   "homepage": "https://github.com/manic-js/plugin-tailwind#readme",
   "bugs": {
     "url": "https://github.com/manic-js/plugin-tailwind/issues"
@@ -27,6 +27,10 @@
   },
   "dependencies": {
     "bun-plugin-tailwind": "^0.1.2"
+  },
+  "peerDependencies": {
+    "manicjs": ">=1.0.0",
+    "react": ">=18.0.0"
   },
   "devDependencies": {
     "@shikijs/transformers": "^4.0.2",
