@@ -31,5 +31,9 @@
     "@shikijs/transformers": "^4.0.2",
     "@types/mdx": "^2.0.13",
     "fumadocs-docgen": "^3.0.10"
-  }
+  },
+  "files": [
+    "src/**/*",
+    "README.md"
+  ]
 }
