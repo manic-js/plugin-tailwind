@@ -1,6 +1,6 @@
 {
   "name": "@manicjs/tailwind",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "homepage": "https://github.com/manic-js/plugin-tailwind#readme",
   "bugs": {
     "url": "https://github.com/manic-js/plugin-tailwind/issues"
@@ -25,16 +25,11 @@
     "ci:compliance": "test -f CODE_OF_CONDUCT.md && test -f LICENSE && test -f README.md",
     "test": "bun test --timeout 30000"
   },
-  "dependencies": {
-    "bun-plugin-tailwind": "^0.1.2"
-  },
   "peerDependencies": {
     "manicjs": ">=1.0.0",
     "react": ">=18.0.0"
   },
   "devDependencies": {
-    "@shikijs/transformers": "^4.0.2",
-    "@types/mdx": "^2.0.13",
     "fumadocs-docgen": "^3.0.10"
   },
   "files": [
