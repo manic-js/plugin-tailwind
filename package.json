@@ -1,6 +1,6 @@
 {
   "name": "@manicjs/tailwind",
-  "version": "1.0.7",
+  "version": "1.0.8",
   "homepage": "https://github.com/manic-js/plugin-tailwind#readme",
   "bugs": {
     "url": "https://github.com/manic-js/plugin-tailwind/issues"
