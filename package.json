@@ -36,5 +36,8 @@
     "src",
     "README.md",
     "LICENSE"
-  ]
+  ],
+  "dependencies": {
+    "@tailwindcss/node": "4.3.1"
+  }
 }
